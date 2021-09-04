@@ -1,4 +1,4 @@
- #include <iostream>
+#include <iostream>
 #include <algorithm>
 #include <vector>
 
@@ -17,7 +17,7 @@ int main() {
        cin >> num ;
        nums.push_back(num);
 
-       cout << " Você quer digitar outro número?(você deve responder com s ou n)" << endl;
+       cout << " Você quer digitar outro número?(você deve responder com S ou N)" << endl;
        cin >> resp ;
     } while (resp == "s") ;
 
